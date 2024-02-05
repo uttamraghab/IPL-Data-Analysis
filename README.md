@@ -234,7 +234,7 @@ where bowler='Harbhajan Singh' and batsman IN ('Yuvraj Singh','S Dhawan');
 -----------------------------------------------------------
 select batsman,bowler, count(ball) 
 from ipl.deliveries
-#where bowler='BCJ Cutting' and batsman='DR Smith'
+#where bowler='SK Warne' and batsman='SR Tendulkar'
 group by batsman,bowler;
 
 
