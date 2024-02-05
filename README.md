@@ -153,7 +153,7 @@ end as 'Run in words' from ipl.deliveries ;
 
 # Data Aggregation
 --------------------
-select winner,win_by_wickets,max(win_by_runs)
+select winner,max(win_by_wickets),max(win_by_runs)
 from ipl.matches
 group by winner
 order by 3 desc;
